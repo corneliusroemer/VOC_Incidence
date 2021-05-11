@@ -87,7 +87,8 @@ def get_tot_sequences(id, lineage='', mut='', time=42):
         index = pd.date_range('20200101', datetime.datetime.today())
         df2 = pd.DataFrame({'lineage_count': 0}, index=index)
         df2.update(df)
-        result = df2.lineage_count.rolling(time).sum().iloc[-1]
+        # result = df2.lineage_count.rolling(time).sum().iloc[-1]
+        result = df2.lineage_count.sum()
         print(result)
         return result
 

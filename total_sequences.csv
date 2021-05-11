@@ -1,172 +1,173 @@
 id,full_name,total_count
-GBR,United Kingdom,385840.0
-USA,United States,356247.0
-DEU,Germany,76365.0
-DNK,Denmark,50542.0
-CHE,Switzerland,33218.0
-JPN,Japan,30617.0
-CAN,Canada,30379.0
-SWE,Sweden,30177.0
-FRA,France,27268.0
-NLD,Netherlands,25956.0
-AUT,Austria,24565.0
-ITA,Italy,22695.0
-ESP,Spain,22528.0
-AUS,Australia,17358.0
-BEL,Belgium,17210.0
-IRL,Ireland,10729.0
-IND,India,10556.0
-SVN,Slovenia,8058.0
-NOR,Norway,7925.0
-POL,Poland,7630.0
-ISR,Israel,7207.0
-MEX,Mexico,6783.0
-BRA,Brazil,6462.0
-PRT,Portugal,6268.0
-LTU,Lithuania,6228.0
-LUX,Luxembourg,5944.0
-ZAF,South Africa,5280.0
-ISL,Iceland,5028.0
-KOR,South Korea,4528.0
-TUR,Turkey,3876.0
-FIN,Finland,3043.0
-RUS,Russia,2991.0
-LVA,Latvia,2817.0
-CZE,Czech Republic,2470.0
-SVK,Slovakia,2433.0
-ARG,Argentina,2305.0
-SGP,Singapore,2298.0
-CHL,Chile,1958.0
-QAT,Qatar,1908.0
-ARE,United Arab Emirates,1832.0
-BGR,Bulgaria,1695.0
-HKG,Hong Kong,1598.0
-EST,Estonia,1462.0
-BGD,Bangladesh,1411.0
-HRV,Croatia,1337.0
-CHN,China,1273.0
-PER,Peru,1226.0
-IDN,Indonesia,1205.0
-NZL,New Zealand,1032.0
-SAU,Saudi Arabia,953.0
-THA,Thailand,902.0
-PAN,Panama,885.0
-COL,Colombia,885.0
-REU,Reunion,856.0
-KEN,Kenya,843.0
-GRC,Greece,794.0
-ABW,Aruba,753.0
-MYT,Mayotte,689.0
-NGA,Nigeria,622.0
-ROU,Romania,617.0
-JOR,Jordan,611.0
-GIB,Gibraltar,567.0
-MYS,Malaysia,563.0
-GMB,Gambia,461.0
-CRI,Costa Rica,460.0
-MKD,Macedonia,444.0
-EGY,Egypt,444.0
-HUN,Hungary,435.0
-GHA,Ghana,403.0
-COD,Democratic Republic of the Congo,393.0
-ZWE,Zimbabwe,383.0
-UGA,Uganda,353.0
-CUW,Curaçao,309.0
-LKA,Sri Lanka,302.0
-RWA,Rwanda,287.0
-ECU,Ecuador,281.0
-SRB,Serbia,255.0
-SEN,Senegal,247.0
-OMN,Oman,245.0
-GUF,French Guiana,244.0
-IRN,Iran,237.0
-ZMB,Zambia,213.0
-BHR,Bahrain,201.0
-PNG,Papua New Guinea,194.0
-AGO,Angola,182.0
-BWA,Botswana,178.0
-BES,"Bonaire, Sint Eustatius and Saba",175.0
-PHL,Philippines,175.0
-TWN,Taiwan,173.0
-PAK,Pakistan,171.0
-UKR,Ukraine,170.0
-KAZ,Kazakhstan,170.0
-MAR,Morocco,169.0
-GNQ,Equatorial Guinea,166.0
-MWI,Malawi,156.0
-MOZ,Mozambique,153.0
-VNM,Vietnam,153.0
-CIV,Côte d'Ivoire,145.0
-SUR,Suriname,143.0
-KHM,Cambodia,140.0
-URY,Uruguay,133.0
-CYP,Cyprus,133.0
-IRQ,Iraq,126.0
-MDG,Madagascar,122.0
-SXM,Sint Maarten,122.0
-PSE,Palestina,113.0
-VEN,Venezuela,112.0
-BIH,Bosnia and Herzegovina,99.0
-GLP,Guadeloupe,97.0
-BFA,Burkina Faso,96.0
-TGO,Togo,94.0
-TUN,Tunisia,93.0
-COG,Republic of Congo,66.0
-MNP,Northern Mariana Islands,62.0
-PRY,Paraguay,60.0
-NAM,Namibia,56.0
-BLZ,Belize,52.0
-CMR,Cameroon,48.0
-LBN,Lebanon,48.0
-TTO,Trinidad and Tobago,45.0
-BLR,Belarus,42.0
-LIE,Liechtenstein,41.0
-MMR,Myanmar,40.0
-GTM,Guatemala,40.0
-BOL,Bolivia,39.0
-FRO,Faroe Islands,38.0
-ARM,Armenia,36.0
-GEO,Georgia,34.0
-MNE,Montenegro,31.0
-XKO,Kosovo,30.0
-KWT,Kuwait,30.0
-BMU,Bermuda,30.0
-GUM,Guam,30.0
-ALB,Albania,30.0
-DZA,Algeria,28.0
-BHS,Bahamas,28.0
-UZB,Uzbekistan,27.0
-MNG,Mongolia,26.0
-GAB,Gabon,24.0
-MLI,Mali,24.0
-SWZ,Swaziland,22.0
-DOM,Dominican Republic,19.0
-LSO,Lesotho,18.0
-TLS,Timor-Leste,17.0
-AFG,Afghanistan,16.0
-MTQ,Martinique,16.0
-MLT,Malta,14.0
-NPL,Nepal,14.0
-JAM,Jamaica,13.0
-MDA,Moldova,12.0
-BEN,Benin,12.0
-SLE,Sierra Leone,11.0
-LCA,Saint Lucia,10.0
-MAF,Saint-Martin,10.0
-BRN,Brunei,10.0
-PYF,French Polynesia,10.0
-MUS,Mauritius,10.0
-AZE,Azerbaijan,9.0
-GIN,Guinea,8.0
-SLV,El Salvador,6.0
-COM,Comoros,6.0
-MCO,Monaco,6.0
-VGB,British Virgin Islands,5.0
-BRB,Barbados,5.0
-ETH,Ethiopia,4.0
-KNA,Saint Kitts and Nevis,3.0
-CYM,Cayman Islands,3.0
-CUB,Cuba,2.0
-BLM,Saint-Barthélemy,2.0
-ATG,Antigua and Barbuda,1.0
-AND,Andorra,1.0
+AFG,Afghanistan,16
+ALB,Albania,30
+DZA,Algeria,28
+AND,Andorra,1
+AGO,Angola,182
+ATG,Antigua and Barbuda,1
+ARG,Argentina,2306
+ARM,Armenia,81
+ABW,Aruba,753
+AUS,Australia,17517
+AUT,Austria,24710
+AZE,Azerbaijan,9
+BHS,Bahamas,28
+BHR,Bahrain,201
+BGD,Bangladesh,1446
+BRB,Barbados,5
+BLR,Belarus,42
+BEL,Belgium,18530
+BLZ,Belize,52
+BEN,Benin,12
+BMU,Bermuda,30
+BOL,Bolivia,39
+BES,"Bonaire, Sint Eustatius and Saba",175
+BIH,Bosnia and Herzegovina,99
+BWA,Botswana,178
+BRA,Brazil,6850
+VGB,British Virgin Islands,5
+BRN,Brunei,10
+BGR,Bulgaria,1695
+BFA,Burkina Faso,96
+KHM,Cambodia,140
+CMR,Cameroon,48
+CAN,Canada,30937
+CYM,Cayman Islands,3
+CHL,Chile,1958
+CHN,China,826
+COL,Colombia,885
+COM,Comoros,6
+CRI,Costa Rica,505
+HRV,Croatia,1518
+CUB,Cuba,253
+CUW,Curaçao,309
+CYP,Cyprus,133
+CZE,Czech Republic,2541
+CIV,Côte d'Ivoire,145
+COD,Democratic Republic of the Congo,393
+DNK,Denmark,87147
+DOM,Dominican Republic,19
+ECU,Ecuador,308
+EGY,Egypt,656
+SLV,El Salvador,6
+GNQ,Equatorial Guinea,166
+EST,Estonia,1462
+ETH,Ethiopia,14
+FRO,Faroe Islands,38
+FIN,Finland,4241
+FRA,France,28787
+GUF,French Guiana,255
+PYF,French Polynesia,10
+GAB,Gabon,115
+GMB,Gambia,461
+GEO,Georgia,54
+DEU,Germany,88059
+GHA,Ghana,403
+GIB,Gibraltar,567
+GRC,Greece,1052
+GLP,Guadeloupe,97
+GUM,Guam,30
+GTM,Guatemala,40
+GIN,Guinea,8
+HKG,Hong Kong,2344
+HUN,Hungary,435
+ISL,Iceland,5028
+IND,India,12179
+IDN,Indonesia,1280
+IRN,Iran,237
+IRQ,Iraq,126
+IRL,Ireland,11292
+ISR,Israel,7207
+ITA,Italy,24025
+JAM,Jamaica,13
+JPN,Japan,36274
+JOR,Jordan,613
+KAZ,Kazakhstan,170
+KEN,Kenya,843
+XKO,Kosovo,30
+KWT,Kuwait,30
+LVA,Latvia,2817
+LBN,Lebanon,64
+LSO,Lesotho,18
+LIE,Liechtenstein,42
+LTU,Lithuania,7287
+LUX,Luxembourg,7771
+MKD,Macedonia,444
+MDG,Madagascar,122
+MWI,Malawi,156
+MYS,Malaysia,597
+MLI,Mali,24
+MLT,Malta,14
+MTQ,Martinique,16
+MUS,Mauritius,74
+MYT,Mayotte,689
+MEX,Mexico,6930
+MDA,Moldova,12
+MCO,Monaco,6
+MNG,Mongolia,26
+MNE,Montenegro,31
+MAR,Morocco,254
+MOZ,Mozambique,153
+MMR,Myanmar,40
+NAM,Namibia,56
+NPL,Nepal,14
+NLD,Netherlands,26110
+NZL,New Zealand,1047
+NGA,Nigeria,640
+MNP,Northern Mariana Islands,62
+NOR,Norway,8252
+OMN,Oman,245
+PAK,Pakistan,171
+PSE,Palestina,113
+PAN,Panama,885
+PNG,Papua New Guinea,194
+PRY,Paraguay,60
+PER,Peru,1226
+PHL,Philippines,175
+POL,Poland,9199
+PRT,Portugal,7220
+PRI,Puerto Rico,782
+QAT,Qatar,1899
+COG,Republic of Congo,120
+REU,Reunion,871
+ROU,Romania,624
+RUS,Russia,3386
+RWA,Rwanda,287
+KNA,Saint Kitts and Nevis,3
+LCA,Saint Lucia,10
+BLM,Saint-Barthélemy,2
+MAF,Saint-Martin,10
+SAU,Saudi Arabia,953
+SEN,Senegal,354
+SRB,Serbia,255
+SLE,Sierra Leone,11
+SGP,Singapore,2363
+SXM,Sint Maarten,122
+SVK,Slovakia,2434
+SVN,Slovenia,8152
+ZAF,South Africa,5493
+KOR,South Korea,5404
+ESP,Spain,24110
+LKA,Sri Lanka,302
+SUR,Suriname,143
+SWZ,Swaziland,31
+SWE,Sweden,36814
+CHE,Switzerland,34992
+TWN,Taiwan,173
+THA,Thailand,902
+TLS,Timor-Leste,17
+TGO,Togo,94
+TTO,Trinidad and Tobago,45
+TUN,Tunisia,93
+TUR,Turkey,4014
+UGA,Uganda,353
+UKR,Ukraine,170
+ARE,United Arab Emirates,1832
+GBR,United Kingdom,391532
+USA,United States,383430
+URY,Uruguay,133
+UZB,Uzbekistan,27
+VEN,Venezuela,112
+VNM,Vietnam,154
+ZMB,Zambia,213
+ZWE,Zimbabwe,383
