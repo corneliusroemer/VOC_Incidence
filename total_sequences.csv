@@ -5,18 +5,18 @@ DZA,Algeria,28
 AND,Andorra,1
 AGO,Angola,182
 ATG,Antigua and Barbuda,1
-ARG,Argentina,2306
+ARG,Argentina,2418
 ARM,Armenia,81
-ABW,Aruba,753
-AUS,Australia,17517
-AUT,Austria,24710
+ABW,Aruba,823
+AUS,Australia,17525
+AUT,Austria,25059
 AZE,Azerbaijan,9
 BHS,Bahamas,28
 BHR,Bahrain,201
-BGD,Bangladesh,1446
+BGD,Bangladesh,1450
 BRB,Barbados,5
 BLR,Belarus,42
-BEL,Belgium,18530
+BEL,Belgium,19463
 BLZ,Belize,52
 BEN,Benin,12
 BMU,Bermuda,30
@@ -24,84 +24,84 @@ BOL,Bolivia,39
 BES,"Bonaire, Sint Eustatius and Saba",175
 BIH,Bosnia and Herzegovina,99
 BWA,Botswana,178
-BRA,Brazil,6850
+BRA,Brazil,8474
 VGB,British Virgin Islands,5
 BRN,Brunei,10
 BGR,Bulgaria,1695
 BFA,Burkina Faso,96
-KHM,Cambodia,140
-CMR,Cameroon,48
-CAN,Canada,30937
+KHM,Cambodia,161
+CMR,Cameroon,71
+CAN,Canada,32654
 CYM,Cayman Islands,3
-CHL,Chile,1958
-CHN,China,826
-COL,Colombia,885
+CHL,Chile,2196
+CHN,China,829
+COL,Colombia,939
 COM,Comoros,6
 CRI,Costa Rica,505
 HRV,Croatia,1518
-CUB,Cuba,253
-CUW,Curaçao,309
+CUB,Cuba,591
+CUW,Curaçao,319
 CYP,Cyprus,133
-CZE,Czech Republic,2541
+CZE,Czech Republic,2688
 CIV,Côte d'Ivoire,145
 COD,Democratic Republic of the Congo,393
 DNK,Denmark,87147
 DOM,Dominican Republic,19
-ECU,Ecuador,308
-EGY,Egypt,656
+ECU,Ecuador,351
+EGY,Egypt,660
 SLV,El Salvador,6
-GNQ,Equatorial Guinea,166
+GNQ,Equatorial Guinea,190
 EST,Estonia,1462
 ETH,Ethiopia,14
 FRO,Faroe Islands,38
 FIN,Finland,4241
-FRA,France,28787
+FRA,France,30059
 GUF,French Guiana,255
 PYF,French Polynesia,10
 GAB,Gabon,115
 GMB,Gambia,461
 GEO,Georgia,54
-DEU,Germany,88059
-GHA,Ghana,403
+DEU,Germany,98710
+GHA,Ghana,433
 GIB,Gibraltar,567
-GRC,Greece,1052
+GRC,Greece,1123
 GLP,Guadeloupe,97
 GUM,Guam,30
-GTM,Guatemala,40
+GTM,Guatemala,41
 GIN,Guinea,8
-HKG,Hong Kong,2344
+HKG,Hong Kong,2409
 HUN,Hungary,435
 ISL,Iceland,5028
-IND,India,12179
-IDN,Indonesia,1280
-IRN,Iran,237
+IND,India,12901
+IDN,Indonesia,1298
+IRN,Iran,248
 IRQ,Iraq,126
-IRL,Ireland,11292
+IRL,Ireland,11882
 ISR,Israel,7207
-ITA,Italy,24025
+ITA,Italy,24299
 JAM,Jamaica,13
-JPN,Japan,36274
-JOR,Jordan,613
+JPN,Japan,36979
+JOR,Jordan,625
 KAZ,Kazakhstan,170
 KEN,Kenya,843
 XKO,Kosovo,30
 KWT,Kuwait,30
-LVA,Latvia,2817
+LVA,Latvia,2839
 LBN,Lebanon,64
 LSO,Lesotho,18
-LIE,Liechtenstein,42
-LTU,Lithuania,7287
+LIE,Liechtenstein,43
+LTU,Lithuania,7914
 LUX,Luxembourg,7771
-MKD,Macedonia,444
+MKD,Macedonia,520
 MDG,Madagascar,122
 MWI,Malawi,156
-MYS,Malaysia,597
+MYS,Malaysia,647
 MLI,Mali,24
-MLT,Malta,14
+MLT,Malta,15
 MTQ,Martinique,16
 MUS,Mauritius,74
 MYT,Mayotte,689
-MEX,Mexico,6930
+MEX,Mexico,6958
 MDA,Moldova,12
 MCO,Monaco,6
 MNG,Mongolia,26
@@ -110,62 +110,62 @@ MAR,Morocco,254
 MOZ,Mozambique,153
 MMR,Myanmar,40
 NAM,Namibia,56
-NPL,Nepal,14
-NLD,Netherlands,26110
-NZL,New Zealand,1047
-NGA,Nigeria,640
+NPL,Nepal,22
+NLD,Netherlands,27928
+NZL,New Zealand,1060
+NGA,Nigeria,664
 MNP,Northern Mariana Islands,62
-NOR,Norway,8252
+NOR,Norway,8667
 OMN,Oman,245
-PAK,Pakistan,171
+PAK,Pakistan,182
 PSE,Palestina,113
 PAN,Panama,885
 PNG,Papua New Guinea,194
 PRY,Paraguay,60
 PER,Peru,1226
 PHL,Philippines,175
-POL,Poland,9199
-PRT,Portugal,7220
-PRI,Puerto Rico,782
-QAT,Qatar,1899
-COG,Republic of Congo,120
+POL,Poland,9860
+PRT,Portugal,7435
+PRI,Puerto Rico,873
+QAT,Qatar,1910
+COG,Republic of Congo,121
 REU,Reunion,871
-ROU,Romania,624
-RUS,Russia,3386
+ROU,Romania,765
+RUS,Russia,3393
 RWA,Rwanda,287
 KNA,Saint Kitts and Nevis,3
 LCA,Saint Lucia,10
 BLM,Saint-Barthélemy,2
 MAF,Saint-Martin,10
-SAU,Saudi Arabia,953
+SAU,Saudi Arabia,954
 SEN,Senegal,354
 SRB,Serbia,255
-SLE,Sierra Leone,11
-SGP,Singapore,2363
+SLE,Sierra Leone,15
+SGP,Singapore,2364
 SXM,Sint Maarten,122
-SVK,Slovakia,2434
-SVN,Slovenia,8152
-ZAF,South Africa,5493
+SVK,Slovakia,2502
+SVN,Slovenia,9312
+ZAF,South Africa,5507
 KOR,South Korea,5404
-ESP,Spain,24110
-LKA,Sri Lanka,302
+ESP,Spain,25487
+LKA,Sri Lanka,380
 SUR,Suriname,143
 SWZ,Swaziland,31
-SWE,Sweden,36814
-CHE,Switzerland,34992
+SWE,Sweden,37196
+CHE,Switzerland,36063
 TWN,Taiwan,173
-THA,Thailand,902
+THA,Thailand,903
 TLS,Timor-Leste,17
-TGO,Togo,94
+TGO,Togo,113
 TTO,Trinidad and Tobago,45
 TUN,Tunisia,93
-TUR,Turkey,4014
-UGA,Uganda,353
+TUR,Turkey,4078
+UGA,Uganda,358
 UKR,Ukraine,170
 ARE,United Arab Emirates,1832
-GBR,United Kingdom,391532
-USA,United States,383430
-URY,Uruguay,133
+GBR,United Kingdom,398496
+USA,United States,405190
+URY,Uruguay,136
 UZB,Uzbekistan,27
 VEN,Venezuela,112
 VNM,Vietnam,154

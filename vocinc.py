@@ -10,7 +10,7 @@ import requests_cache
 requests_cache.install_cache()
 # %%
 # %%
-params = {'pangolin_lineage': 'B.1.1.7',
+params = {'pangolin_lineage': 'B.1.617.2',
           'location_id': 'GBR', 'mutations': 'S:E484K'}
 # params = {'location_id': 'DEU'}
 r = requests.get(
@@ -87,8 +87,10 @@ def get_tot_sequences(id, lineage='', mut='', time=42):
         index = pd.date_range('20200101', datetime.datetime.today())
         df2 = pd.DataFrame({'lineage_count': 0}, index=index)
         df2.update(df)
-        # result = df2.lineage_count.rolling(time).sum().iloc[-1]
-        result = df2.lineage_count.sum()
+        if time == -1:
+            result = df2.lineage_count.sum()
+        else:
+            result = df2.lineage_count.rolling(time).sum().iloc[-1]
         print(result)
         return result
 
@@ -96,7 +98,7 @@ def get_tot_sequences(id, lineage='', mut='', time=42):
 # %%
 # %%
 codes['total_count'] = codes.apply(
-    lambda row: get_tot_sequences(row.name), axis=1)
+    lambda row: get_tot_sequences(row.name, time=-1), axis=1)
 
 # %%
 codes['B1351'] = codes.apply(
@@ -111,11 +113,14 @@ codes['P1'] = codes.apply(
 codes = codes.assign(P1_ratio=(0+codes.P1)/(0+codes.total_count))
 codes.P1_ratio.sort_values(ascending=False).iloc[0:20]
 # %%
-codes['Tirol'] = codes.apply(
-    lambda row: get_tot_sequences(row.name, 'B.1.1.7', 'S:E484K') if row.total_count > 0 else 0, axis=1)
+codes['India'] = codes.apply(
+    lambda row: get_tot_sequences(row.name, 'B.1.617.2', time=28) if row.total_count > 0 else 0, axis=1)
 # %%
-codes = codes.assign(Tirol_ratio=(0+codes.Tirol)/(0+codes.total_count))
-codes.Tirol_ratio.sort_values(ascending=False).iloc[0:20]
+codes = codes.assign(India_ratio=(0+codes.India)/(0+codes.total_count))
+codes.India_ratio.sort_values(ascending=False).iloc[0:20]
+# %%
+codes = codes.assign(India_ratio_corr=(1+codes.India)/(1+codes.total_count))
+codes.India_ratio_corr.sort_values(ascending=False).iloc[0:20]
 # %%
 x = range(20)
 y = []
@@ -126,4 +131,14 @@ plt.plot(x, y)
 
 # %%
 get_tot_sequences('BLR', 'P.1')
+# %%
+codes.total_count = codes.total_count.astype('int')
+codes.to_csv('total_sequences.csv')
+# %%
+vinc = pd.concat([codes, inc.rename('inc')], axis=1)
+# %%
+vinc = vinc.assign(combined=vinc.India_ratio_corr * vinc.inc)
+# %%
+vinc[vinc.total_count > -
+     1].sort_values(by='combined', ascending=False).to_csv('vinc.csv')
 # %%
