@@ -1,3 +1,4 @@
+#%%
 import datetime
 import requests
 import json
@@ -14,7 +15,7 @@ df.keys()
 # %%
 df.dtypes
 # %%
-df = df[df.date == '2021-05-11']
+df = df[df.date == '2021-05-26']
 # %%
 df = df.set_index('iso_code')
 # %%

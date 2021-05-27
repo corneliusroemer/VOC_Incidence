@@ -10,8 +10,8 @@ import requests_cache
 requests_cache.install_cache()
 # %%
 # %%
-params = {'pangolin_lineage': 'B.1.617.2',
-          'location_id': 'GBR', 'mutations': 'S:E484K'}
+params = {'pangolin_lineage': 'P.1',
+          'location_id': 'DEU', 'mutations': 'S:E484K'}
 # params = {'location_id': 'DEU'}
 r = requests.get(
     'https://api.outbreak.info/genomics/prevalence-by-location', params)
@@ -36,13 +36,13 @@ df2.plot()
 df2.total_count.rolling(14).sum().plot()
 # %%
 # (df.lineage_count / df.total_count).plot()
-linlast = df.lineage_count.rolling(28).sum()
-totlast = df.total_count.rolling(28).sum()
+linlast = df.lineage_count.rolling(14).sum()
+totlast = df.total_count.rolling(14).sum()
 plt.plot(linlast/totlast)
 # %%
 # Method 2 Exponentially weighted: but need all sequences as well
-linewm = df.lineage_count.ewm(halflife=5).mean()
-totewm = df.total_count.ewm(halflife=5).mean()
+linewm = df.lineage_count.ewm(halflife=7).mean()
+totewm = df.total_count.ewm(halflife=7).mean()
 plt.plot(linewm/totewm)
 # %%
 '''
@@ -67,7 +67,7 @@ codes.drop('None', inplace=True)
 # %%
 
 
-def get_tot_sequences(id, lineage='', mut='', time=42):
+def get_tot_sequences(id, lineage='', mut='', time=35):
     print(id)
     params = {'location_id': id}
     if lineage:
@@ -98,7 +98,7 @@ def get_tot_sequences(id, lineage='', mut='', time=42):
 # %%
 # %%
 codes['total_count'] = codes.apply(
-    lambda row: get_tot_sequences(row.name, time=-1), axis=1)
+    lambda row: get_tot_sequences(row.name), axis=1)
 
 # %%
 codes['B1351'] = codes.apply(
@@ -135,9 +135,16 @@ get_tot_sequences('BLR', 'P.1')
 codes.total_count = codes.total_count.astype('int')
 codes.to_csv('total_sequences.csv')
 # %%
+df = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv')
+df = df[df.date == '2021-05-26']
+# %%
+df = df.set_index('iso_code')
+# %%
+inc = df.new_cases_smoothed_per_million / 10 * 7
+# %%
 vinc = pd.concat([codes, inc.rename('inc')], axis=1)
 # %%
-vinc = vinc.assign(combined=vinc.India_ratio_corr * vinc.inc)
+vinc = vinc.assign(combined=vinc.P1_ratio * vinc.inc)
 # %%
 vinc[vinc.total_count > -
      1].sort_values(by='combined', ascending=False).to_csv('vinc.csv')
